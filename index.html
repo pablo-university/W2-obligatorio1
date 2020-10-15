@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de interiores</title>
+    <!-- Icono pestaña -->
+    <link rel="shortcut icon" href="img/icono-pestana.svg" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Iconos Font awesome -->
+    <script src="https://kit.fontawesome.com/cebf744b85.js" crossorigin="anonymous"></script>
+
+    <!-- Fuentes 400 regular y 700 bold-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="#">
+        <nav>
+            <ul class="flex-space-between">
+                <li><a href="#"><i class="fas fa-drafting-compass fa-4x"></i>
+                        <h1>TOC DESIGN</h1>
+                    </a></li>
+                <li><label for="busqueda"><input type="search" id="busqueda" name="busqueda" placeholder="busqueda" /><i
+                            class="fas fa-search"></i></label></li>
+                <li><a href="#"><i class="fas fa-user-alt fa-2x"></i></a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart fa-2x"></i></a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="flex-space-between">
+                <li class="active"><a href="#">HOLA!</a></li>
+                <li><a href="packs.html">PACKS</a></li>
+                <li><a href="#">GALERÍA</a></li>
+                <li><a href="#">RESERVAS</a></li>
+                <li><a href="#">AGENDA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="#">
+        <section class="section1-index">
+            <div>
+                <h1>Renovación<br> en Toc Design!</h1>
+                <p>Somos una empresa de interiorismo, joven e innovadora, con 15 años en el mercado. Caracterizados por
+                    ofrecer una atención personalizada y empática. Te traemos los mejores proyectos de interiorismo y
+                    diseño de interiores. Nos acompañan los interioristas que más están dando de qué hablar y sus
+                    últimas creaciones para tu próxima reforma.</p>
+                <a href="#" class="boton">VER MÁS</a>
+            </div>
+        </section>
+        <section class="section2-index flex-space-between">
+            <h2>Novedades</h2>
+            <article class="flex-space-between">
+                <figure>
+                    <!-- relacion 10:8 -->
+                    <img src="img/novedad-1.jpg" alt="titulo descriptivo de la imagen, sobre novedad">
+                </figure>
+                <div>
+                    <h3>Proyectos</h3>
+                    <p>Te traemos los mejores proyectos de interiorismo y diseño de interiores en casas, hoteles y
+                        restaurantes modernos.</p>
+                    <a href="#" class="boton">AMPLIAR</a>
+                </div>
+            </article>
+            <article class="flex-space-between">
+                <figure>
+                    <img src="img/novedad-2.jpg" alt="titulo descriptivo de la imagen, sobre novedad">
+                </figure>
+                <div>
+                    <h3>Equipo</h3>
+                    <p>Te presentamos a los interioristas que más están dando de qué hablar y sus últimas creaciones,
+                        para que encuentres necesitas para tu próxima reforma.</p>
+                    <a href="#" class="boton">AMPLIAR</a>
+                </div>
+            </article>
+        </section>
+        <section class="section3-index table">
+            <h2>Nuestros eventos</h2>
+            <div class="table-row">
+                <article class="table-cell">
+                    <figure>
+                        <!-- relacion 10:8 -->
+                        <img src="img/evento-1.jpg" alt="esta imagen hace referencia al evento del título">
+                        <a href="#" class=" boton">VER MÁS</a>
+                    </figure>
+                    <h3>Encuentro fest</h3>
+                    <p>La importación de los productos para el hogar se complementa con la fabricación propia. TOC
+                        DSEIGN cuenta, en cada etapa del proceso, con artesanos destacados en su oficio, nos
+                        juntamos para contamos...</p>
+                </article>
+                <article class="table-cell">
+                    <figure>
+                        <img src="img/evento-2.jpg" alt="esta imagen hace referencia al evento del título">
+                        <a href="#" class=" boton">VER MÁS</a>
+                    </figure>
+                    <h3>Reunión anual</h3>
+                    <p>Tenemos una estrecha y estricta vinculación con el Design Lab, al trabajo con tecnología de
+                        avanzada, a la fina terminación de la herrería, al cuidado de las soldaduras y pulidos, y
+                        queremos compartirla...</p>
+                </article>
+                <article class="table-cell">
+                    <figure>
+                        <img src="img/evento-3.jpg" alt="esta imagen hace referencia al evento del título">
+                        <a href="#" class=" boton">VER MÁS</a>
+                    </figure>
+                    <h3>Mes design</h3>
+                    <p>En el mes del diseño sabemos que es una fecha única y por eso queremos compartira contigo, es una
+                        fecha especial para todo rubro relacionado al diseño y en TOC nos lucimos y queremos que te
+                        luzcas...</p>
+                </article>
+            </div>
+        </section>
+        <section class="section4-index">
+            <h2>Reservas</h2>
+            <!-- aqui colocar el formulario ver como hacerlo -->
+            <form action="#" method="GET">
+                <!-- CONTENEDOR -->
+                <div role="group">
+                    <label for="nombre">Nombre y apellido:
+                        <input type="text" id="nombre" name="nombre" placeholder="Escrie tu nombre" required>
+                    </label>
+                    <label for="mail">Email:
+                        <input type="email" id="mail" name="mail" placeholder="Escrie tu mail" required>
+                    </label>
+                    <!-- select -->
+                    <label for="evento">Evento:
+                        <select name="evento" id="evento" required>
+                            <option value="" selected disabled>Selecciona opción</option>
+                            <option value="evento2">evento2</option>
+                            <option value="evento3">evento3</option>
+                            <option value="evento3">evento4</option>
+                        </select>
+                    </label>
+                    <!-- comentarios -->
+                    <label for="comentario">Comentarios:
+                        <textarea id="comentario" name="comentario" rows="6" cols="70" placeholder="Escrie tu mensaje"
+                            required></textarea>
+                    </label>
+
+                    <div>
+                        <!-- titulo confirma -->
+                        <label>Tipo de reserva:</label>
+                        <!-- confirma1 -->
+                        <label for="confirma"><input type="radio" name="confirma" id="confirma" value="confirma"
+                                required>Confirma</label>
+                        <!-- confirma2 -->
+                        <label for="confirma2"><input type="radio" name="confirma" id="confirma2" value="confirma"
+                                required>A confirmar</label>
+                        <!-- ckeck publicidad -->
+                        <label for="check"><input type="checkbox" id="check" name="check" required>Quiero recibir
+                            mails</label>
+                        <!-- boton enviar -->
+                        <input type="submit" value="ENVIAR" class="boton">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="flex-space-between">
+            <li>
+                <p>Seguinos</p>
+            </li>
+            <li><a href="#"><i class="fab fa-instagram-square fa-2x"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
