@@ -22,7 +22,7 @@
     --color-link: #272727;
     --hover-link: white;
     --color-tabla: rgb(186 186 186);
-    --color-fondo: #d4d4d4;
+    --color-fondo: #d6d4d4;
     /* --color-fondo: #8d8d8d ; */
 
     --margen-fuente: 1rem;
@@ -229,7 +229,7 @@ header label i {
 }
 .section1-index a:last-child {
     position: absolute;
-    bottom: 3rem;
+    bottom: 2rem;
 }
 /* Section2 */
 .section2-index h2 {
